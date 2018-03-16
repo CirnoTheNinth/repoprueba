@@ -28,4 +28,4 @@ crear etiquetas para las ramas: git tag -a v1.4 -m 'my version 1.4'
 
 deshacer cambios locales y commits: git fetch origin --> git reset --hard origin/master
 
-asdadasdasd
+asdadasdasdasdasdasdadasdasdasdw
