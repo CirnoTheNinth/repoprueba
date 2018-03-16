@@ -1,0 +1,29 @@
+iniciar repositorio local: git init
+
+crear copia local del repositorio: git clone *path del repositorio*
+
+añadir para registrar cambios: git add .
+
+commit cambios añadidos: git commit -m "mensaje del commit"
+
+pushear los cambios al repositorio remoto: git push origin master
+
+en la linea anterior, se puede cambiar master por la rama a la que quiera enviar los cambios
+
+crear nueva rama: git checkout -b nombrerama
+
+volver a la rama principal: git checkout master
+
+borrar rama: git branch -d nombrerama
+
+pushear una rama: git push origin nombrerama
+
+actualizar repositorio: git pull
+
+fusionar rama con rama activa EN LA QUE ESTAS: git merge nombrerama
+
+revisar cambios: git diff ramasource ramatarget
+
+crear etiquetas para las ramas: git tag -a v1.4 -m 'my version 1.4'
+
+deshacer cambios locales y commits: git fetch origin --> git reset --hard origin/master
