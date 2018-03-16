@@ -31,3 +31,6 @@ deshacer cambios locales y commits: git fetch origin --> git reset --hard origin
 asdadasdasdasdasdasdadasdasdasdw
 
 RAMA
+
+
+RAMA MAIN MASTAH
